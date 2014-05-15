@@ -1,0 +1,115 @@
+<!doctype html>
+<!--
+Copyright 2013 The Polymer Authors. All rights reserved.
+Use of this source code is governed by a BSD-style
+license that can be found in the LICENSE file.
+-->
+<html>
+  <head>
+    <title>infinite-scroll</title>
+    <script src="bower_components/platform/platform.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="import" href="app-widgets.html">
+    <script src="data.js"></script>
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        display: block;
+        height: 100%;
+        margin: 0;
+      }
+      #container {
+        height: 100%;
+        margin: 0;
+      }
+      .item {
+        -webkit-transform: translate3d(0,0,0);
+        box-sizing: border-box;
+        overflow: hidden;
+        background-color: white;
+      }
+      .conversation {
+        font-family: sans-serif;
+        height: 70px;
+        display: flex;
+        border-bottom: 1px solid lightgray;
+      }
+      .avatar {
+        display: flex;
+        flex-shrink: 0;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        background-color: lightblue;
+      }
+      .summary {
+        flex: 1;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px 10px 0px;
+      }
+      .topline {
+        display: flex;
+        flex-shrink: 0;
+      }
+      .participants {
+        flex: 1;
+        flex-shrink: 0;
+        font-weight: bold;
+      }
+      .time {
+        flex-shrink: 0;
+        font-size: 12px;
+        color: #444;
+      }
+      .bottomline {
+        flex-shrink: 0;
+        display: flex;
+      }
+      .preview {
+        flex: 1;
+        flex-shrink: 0;
+        font-size: 12px;
+        height: 2em;
+        text-overflow: ellipsis;
+      }
+      .subject {
+        font-weight: bold;
+      }
+      .snippet {
+        color: #444;
+      }
+      .trinkets {
+        flex-shrink: 0;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <app-list id="container">
+      <template repeat>
+        <div class="item conversation">
+          <div class="avatar" style="background-color: {{ avatarColor }}">{{ avatarLetter }}</div>
+          <div class="summary">
+            <div class="topline">
+              <div class="participants">{{ participants }}</div>
+              <div class="time">{{ time }}</div>
+            </div>
+            <div class="bottomline">
+              <div class="preview"><span class="subject">{{ subject }}</span> &mdash;
+                <span class="snippet">{{ snippet }}</span></div>
+              <div class="trinkets">&#x2606;</div>
+            </div>
+          </div>
+        </div>
+      </template>
+    </app-list>
+  </body>
+</html>
