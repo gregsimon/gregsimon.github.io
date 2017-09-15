@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['namedobject',['NamedObject',['../interface_named_object.html',1,'']]],
+  ['namedregion',['NamedRegion',['../struct_named_region.html',1,'']]],
+  ['netaddress',['NetAddress',['../struct_net_address.html',1,'']]],
+  ['netconnector',['NetConnector',['../interface_net_connector.html',1,'NetConnector'],['../group__netconnector.html',1,'(Global Namespace)']]],
+  ['neterr',['NetErr',['../struct_net_err.html',1,'']]],
+  ['netinterface',['NetInterface',['../struct_net_interface.html',1,'']]],
+  ['netinterfacestats',['NetInterfaceStats',['../struct_net_interface_stats.html',1,'']]],
+  ['netmediaplayer',['NetMediaPlayer',['../interface_net_media_player.html',1,'']]],
+  ['netmediaservice',['NetMediaService',['../interface_net_media_service.html',1,'']]],
+  ['netstack',['Netstack',['../interface_netstack.html',1,'Netstack'],['../group__netstack.html',1,'(Global Namespace)']]],
+  ['nettrafficstats',['NetTrafficStats',['../struct_net_traffic_stats.html',1,'']]],
+  ['network',['Network',['../group__network.html',1,'']]],
+  ['networkerror',['NetworkError',['../struct_network_error.html',1,'']]],
+  ['networkservice',['NetworkService',['../interface_network_service.html',1,'']]],
+  ['newunion',['NewUnion',['../union_new_union.html',1,'']]],
+  ['nodefaultfieldvalues',['NoDefaultFieldValues',['../struct_no_default_field_values.html',1,'']]],
+  ['non_5fpremultiplied',['NON_PREMULTIPLIED',['../struct_image_info.html#ad9b427178bc5513af699e59d3f1837c4a7445a3a55efe67451454b64558ecfd62',1,'ImageInfo']]],
+  ['none',['NONE',['../group__media.html#gga97cfd5633b2133e7ebe42dbb9b03e757ac157bdf0b85a40d2619cbc8bc1ae5fe2',1,'media_types.fidl']]],
+  ['nonnullablemapstruct',['NonNullableMapStruct',['../struct_non_nullable_map_struct.html',1,'']]],
+  ['normal_5ftype',['normal_type',['../struct_mesh_vertex_format.html#a10727b516ecd7c5535d88fae5b380699',1,'MeshVertexFormat']]],
+  ['nullable',['nullable',['../struct_type_reference.html#ad6a7343ebb41324ed53b762c5230259e',1,'TypeReference']]],
+  ['nullablehandlestruct',['NullableHandleStruct',['../struct_nullable_handle_struct.html',1,'']]],
+  ['num_5fbytes',['num_bytes',['../struct_struct_version.html#acca4b94aeb5d15297088529648de439e',1,'StructVersion::num_bytes()'],['../struct_buffer.html#a58f240a331eeb71615e3f14db9cf2ba5',1,'Buffer::num_bytes()']]],
+  ['num_5ffields',['num_fields',['../struct_struct_version.html#a020529d9fae1e878b6c20da5df98699b',1,'StructVersion']]]
+];

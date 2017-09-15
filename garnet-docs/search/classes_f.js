@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['range',['Range',['../struct_range.html',1,'']]],
+  ['rangef',['RangeF',['../struct_range_f.html',1,'']]],
+  ['rect',['Rect',['../struct_rect.html',1,'']]],
+  ['rectangle',['Rectangle',['../struct_rectangle.html',1,'']]],
+  ['rectf',['RectF',['../struct_rect_f.html',1,'']]],
+  ['rectpair',['RectPair',['../struct_rect_pair.html',1,'']]],
+  ['regression551',['Regression551',['../interface_regression551.html',1,'']]],
+  ['releaseresourceop',['ReleaseResourceOp',['../struct_release_resource_op.html',1,'']]],
+  ['removestrokeop',['RemoveStrokeOp',['../struct_remove_stroke_op.html',1,'']]],
+  ['renderer',['Renderer',['../struct_renderer.html',1,'']]],
+  ['request',['Request',['../struct_request.html',1,'']]],
+  ['requireversion',['RequireVersion',['../struct_require_version.html',1,'']]],
+  ['resource',['Resource',['../union_resource.html',1,'']]],
+  ['resourceargs',['ResourceArgs',['../union_resource_args.html',1,'']]],
+  ['response',['Response',['../struct_response.html',1,'']]],
+  ['roundedrectangle',['RoundedRectangle',['../struct_rounded_rectangle.html',1,'']]],
+  ['rrectf',['RRectF',['../struct_r_rect_f.html',1,'']]],
+  ['runmessageparams',['RunMessageParams',['../struct_run_message_params.html',1,'']]],
+  ['runorclosepipemessageparams',['RunOrClosePipeMessageParams',['../struct_run_or_close_pipe_message_params.html',1,'']]],
+  ['runresponsemessageparams',['RunResponseMessageParams',['../struct_run_response_message_params.html',1,'']]],
+  ['runtimetypeinfo',['RuntimeTypeInfo',['../struct_runtime_type_info.html',1,'']]]
+];
