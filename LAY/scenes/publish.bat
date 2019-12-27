@@ -20,10 +20,10 @@ copy ..\..\..\gags\scenes\100\*.png 100\
 copy ..\..\..\gags\scenes\100\*.jpg 100\
 git add 100\*.*
 
-copy ..\..\..\gags\scenes\110\*.html 110\
-copy ..\..\..\gags\scenes\110\*.png 110\
-copy ..\..\..\gags\scenes\110\*.jpg 110\
-git add 110\*.*
+copy ..\..\..\gags\scenes\119\*.html 119\
+copy ..\..\..\gags\scenes\119\*.png 119\
+copy ..\..\..\gags\scenes\119\*.jpg 119\
+git add 119\*.*
 
 git commit -a -m "updating content"
 git push origin master
