@@ -25,5 +25,7 @@ copy /y ..\..\..\gags\scenes\119\*.png 119\
 copy /y ..\..\..\gags\scenes\119\*.jpg 119\
 git add 119\*.*
 
+copy /y ..\..\..\gags\scenes\start\*.html start\
+
 git commit -a -m "updating content"
 git push origin master
